@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "target": "ES2015",       // O puedes usar "ES6"
+      "lib": ["ES2015", "DOM"], // Asegúrate de incluir ES2015 o una versión posterior
+      "module": "commonjs",
+      "strict": true
+    }
+  }
+  
