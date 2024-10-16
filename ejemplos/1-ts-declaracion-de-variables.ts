@@ -34,3 +34,9 @@ codigo = 12345;
 type ID = string | number;
 let empleadoID: ID = 123;
 empleadoID = "ABC123";
+
+type User = {
+    nombre: string;
+    edad: number;
+    activo: boolean;
+};

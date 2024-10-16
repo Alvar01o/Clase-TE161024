@@ -2,10 +2,10 @@
   "compilerOptions": {
     "target": "ES6",
     "module": "UMD",
-    "strict": true,
     "outDir": "./dist",
     "rootDir": "./",
-    "removeComments":true
+    "noImplicitAny": true,
+    "removeComments":true,
   },
 
   "include": ["./*"],

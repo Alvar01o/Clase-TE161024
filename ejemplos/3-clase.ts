@@ -2,6 +2,7 @@ class Auto {
     color: string;
     marca: string;
     year: number;
+
     constructor(color: string, marca: string, year: number) {
         this.color = color;
         this.marca = marca;

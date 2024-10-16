@@ -1,6 +1,5 @@
 new Promise((resolver, rechazar) => {
   console.log("Inicial");
-
   resolver();
 })
   .then(() => {

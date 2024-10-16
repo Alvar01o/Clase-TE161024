@@ -47,3 +47,20 @@ const greetArrow = (name: string): void => {
 
 // Uso de la función de flecha
 greetArrow('Juan'); // Hola, Juan!
+
+
+function manejarValor(valor: unknown) {
+    // Verificación de tipo antes de usar el valor
+    if (typeof valor === 'string') {
+        console.log(`El valor es una cadena: ${valor.toUpperCase()}`);
+    } else if (typeof valor === 'number') {
+        console.log(`El valor es un número: ${valor.toFixed(2)}`);
+    } else {
+        console.log('El valor es de un tipo desconocido');
+    }
+}
+
+// Ejemplos de uso
+manejarValor("Hola"); // El valor es una cadena: HOLA
+manejarValor(42);     // El valor es un número: 42.00
+manejarValor(true);   // El valor es de un tipo desconocido
